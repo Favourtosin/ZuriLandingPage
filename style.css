@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100% ;
+    height: 100%;
+}
+.first-container{
+    background-color: #fffafa;
+    width: 100%;
+    height: 40rem;
+
+}
+.red{
+    color: red;
+}
+.first-container-header{
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.first-container-lbg{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 400;
+    padding-bottom: 1.41rem;
+}
+.first-container-text{
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-right: 1rem;
+    width: 100%;
+}
+.fc-button{
+padding: 1rem 1.5rem;
+border-radius: 1px;
+outline: none;
+border: none;
+display: inline-block;
+margin: auto;
+cursor: pointer;
+font-size: 0.9rem;
+min-width: 13rem;
+
+}
+.red-button{
+    background-color: #e7332b;
+    color: white;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+    margin-right: 0.9rem ;
+}
+
+.red-button a{
+    color: white;
+}
+.red-button a:hover,
+.red-button a:active{
+    color: #e7332b !important;
+}
+.white-button{
+    background-color: white;
+    color: #e7332b;
+    margin-bottom: 1rem;
+    vertical-align: middle;
+}
+.red-button:hover ,
+.red-button:active{
+    background-color: white;
+    color: #e7332b !important;
+ 
+}
+.white-button:hover,
+.white-button:active{
+    background-color: #e7332b;
+    color: white;
+}
+.white-button a:hover,
+.white-button a:active {
+    color: white;
+}
+
+.text-container{
+    /* min-width: 25rem; */
+   /* max-width: 39rem; */
+    display: block;
+    margin: auto;
+}
+.button-container{
+max-width: 50%;
+  display: block;
+  margin: auto;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+/* second-container */
+.second-container{
+    height: 6rem;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+}
+/* .sc-img{ */
+    /* background: url('/dot.png'); */
+    /* position: absolute; */
+    /* height: 100%; */
+    /* z-index: -100; */
+    /* width: 100%; */
+/* } */
+.s-first-container p{
+    font-size: 1rem !important;
+    text-align: center;
+    color: #e7332b;
+    font-weight: 400;
+    font-size: 2.4rem ;
+    width: 100%;
+}
+.s-f-text-container{
+    max-width: 40rem;
+    display: block;
+    margin: auto;
+    font-size: 1rem;
+    text-align: center;
+    padding: 4.5rem;
+    font-weight: 300;
+}
+.threeboxes{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 23rem);
+    width: 100%;
+    row-gap: 1rem;
+    justify-content: center;
+    padding: 0 1.8rem;
+}
+.box{
+ background-color: #fffafa;
+    height: 25rem;
+    padding-top: 1.4rem;
+    width: 90%;
+    margin-bottom: 1.4rem;
+    margin-right: 2rem;
+}
+.zuri-box{
+  height: 8rem;
+  background-color: white;
+  color: black;  
+  width: 8rem;
+  padding: 2.3rem 0 ;
+  font-size:1.4rem;
+  margin-left: 1.8rem;
+  
+}
+.box-text{
+    text-align: center;
+   font-size: 0.9rem;
+   font-weight: 900;
+   }
+.zuri-box span{
+    font-size:1.7rem ;
+}
+
+/* new-styling */
+.box-text-c{
+    width: 88%;
+    display: block;
+    margin: auto;
+}
+.box-main-text{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 1.8rem;
+}
+.iwg{
+    margin-top: 2rem;
+    color: rgb(255, 0, 0,0.6);
+cursor: pointer;
+}
+/* .firstbox{ */
+    /* margin-left: 2rem; */
+/* } */
+/*  */
+footer {
+    margin-top: 5rem;
+    text-decoration: none;
+display: grid;
+width: 90%;
+grid-template-columns: 5% 35% 20% 20% 20%;
+font-size: 0.9rem;
+}
+a{
+    text-decoration: none;
+    color: #e7332b;
+    display: block;
+    font-size: larger;
+    /* text-align: center; */
+    text-rendering: optimizeSpeed;
+}
+.s-img{
+    height: 1rem;
+    margin-right: 1rem;
+}
+.social-row{
+    display: flex;
+    justify-items: flex-end;
+    justify-content: flex-end;
+    
+}
+.social h2{
+    display: block;
+    text-align: center;
+    /* margin-right: 1.9rem; */
+    margin-bottom: 1rem;
+}
+footer  h2{
+    display: block;
+    font-size: 1.4rem;
+}
+.linethrough{
+    width: 90%;
+    height: 4px;
+background-color: rgb(168, 166, 166);
+}
+
+
+
+
+@media (max-width: 38rem){
+
+.button-container{
+   
+    display: block ;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    
+}
+.box{
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+footer{
+    display: grid;
+    grid-template-rows: 6rem 6rem 6rem 6rem 6rem 10rem;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+text-align: center;
+    padding-bottom: 4rem;
+}
+.linethrough{
+  
+
+margin-left: 1.9rem;
+    height: 1.6px;
+}
+}
