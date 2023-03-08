@@ -68,7 +68,7 @@ border-bottom: 2px solid red;
 }
 .section1-container{
     display: grid;
-    grid-template-columns: repeat(auto-fill, 35rem);
+    grid-template-columns: repeat(auto-fill, 45rem);
     width: 95%;
     justify-content: center;
     row-gap: 8rem;
@@ -87,7 +87,7 @@ border-bottom: 2px solid red;
     position: relative;
     text-align: center;
 padding-top: 6rem;
-max-width: 30rem;
+width: 100%;
 }
 .container-text img{
     position: absolute;
@@ -111,6 +111,8 @@ top: 7.3rem;
     border-bottom-right-radius: 9px;
     padding: 1rem 3rem;
     margin-right: 2rem;
+    min-width: 9rem;
+    font-size: 0.9rem;
     text-decoration: none;
 }
 .link1{
