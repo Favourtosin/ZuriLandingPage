@@ -710,6 +710,10 @@ max-width: 29rem;
   max-width: 25rem;
 
 }
+.footer-text-con{
+  display: block;
+  padding: 0;
+}
 footer{
   display: grid;
 grid-template-rows: 10rem 10rem ;
@@ -736,7 +740,10 @@ width: 100%;
   width: 90%;
 }
 .footer-img-con{
+  display: block;
   flex-direction: column;
+  padding: 0;
+  font-size: 1rem;
 }
 .box {
     height: 19rem;
